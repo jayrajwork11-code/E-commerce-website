@@ -1,0 +1,16 @@
+.product-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+.card-text {
+  min-height: 4.5rem;
+}
+
+.navbar .badge {
+  font-size: 0.85rem;
+}
